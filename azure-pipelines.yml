@@ -19,12 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-- task: UiPathTest@3
-  inputs:
-    testTarget: 'TestSet'
-    orchestratorConnection: 'Con_AzureDevOps_Orchestrator'
-    testSet: 'TS_CICD'
-    folderName: 'MyAUBAY'
 - task: UiPathPack@3
   inputs:
     versionType: 'AutoVersion'
@@ -36,3 +30,10 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+
+- task: UiPathTest@3
+  inputs:
+    testTarget: 'TestSet'
+    orchestratorConnection: 'Con_AzureDevOps_Orchestrator'
+    testSet: 'TS_CICD'
+    folderName: 'MyAUBAY'
