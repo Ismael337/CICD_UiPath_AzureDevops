@@ -17,11 +17,11 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
 - task: UiPathTest@3
   inputs:
-    testTarget: 'TestProject'
+    testTarget: 'TestSet'
     orchestratorConnection: 'Con_AzureDevOps_Orchestrator'
+    testSet: 'TS_CICD'
     folderName: 'MyAUBAY'
 
 
