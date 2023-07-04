@@ -1,0 +1,12 @@
+﻿{
+  "Id": "q3PPmnM4ukq6jZonxSMCrA",
+  "Reference": "U94j1T5CTk-LOs1TtneY1A/q3PPmnM4ukq6jZonxSMCrA",
+  "ParentRef": "U94j1T5CTk-LOs1TtneY1A/kk6YSuepR0mlQ7D-lR6lbg",
+  "Name": "MyAubayOffice_QUALIF",
+  "Type": "Screen",
+  "Created": "2023-06-28T13:07:28.1802181Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-28T13:07:28.1802181Z"
+}

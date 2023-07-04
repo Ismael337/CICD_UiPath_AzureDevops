@@ -1,0 +1,13 @@
+﻿{
+  "Id": "0rP7M3KjpUWBm0U_FEYMUQ",
+  "Reference": "U94j1T5CTk-LOs1TtneY1A/0rP7M3KjpUWBm0U_FEYMUQ",
+  "ParentRef": "U94j1T5CTk-LOs1TtneY1A/q3PPmnM4ukq6jZonxSMCrA",
+  "Name": "PWD",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Created": "2023-06-28T13:07:28.4897907Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-06-28T13:07:28.4897907Z"
+}
